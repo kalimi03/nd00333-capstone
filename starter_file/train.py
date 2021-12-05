@@ -12,11 +12,9 @@ from azureml.data.dataset_factory import TabularDatasetFactory
 
 
 def clean_data(data):
-    # Dict for cleaning data
-    #SpTypes = {"K0III":0, "K0III":1, "K2III":2, "G8III":3, "F5V":4}
     # Clean and one hot encode data
     x_df = data.to_pandas_dataframe().dropna()
-    x_df.pop("SpType") # = x_df.SpType.map(SpTypes)
+    x_df.pop("SpType")
     y_df = x_df.pop("TargetClass")
     return x_df, y_df 
 
