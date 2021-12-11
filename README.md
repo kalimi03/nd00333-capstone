@@ -1,5 +1,2 @@
 # nd00333-capstone
-Data location:
-https://www.kaggle.com/mohamedzayton/medical-cost-personal/data#
-
-new dataset location: https://www.kaggle.com/vinesmsuic/star-categorization-giants-and-dwarfs/version/5
+README.pdf is placed inside stater folder. Due to my system issue i am not able to create readme file in *.md format.
